@@ -1,0 +1,153 @@
+/*
+* @Author: suifengtec
+* @Date:   2017-10-02 17:57:45
+* @Last Modified by:   suifengtec
+* @Last Modified time: 2017-10-02 18:19:49
+*/
+.terminal-monitor {
+    text-align: left;
+    margin-top: 10px;
+}
+.terminal-menu {
+    box-sizing: border-box;
+    height: 25px;
+    background-color: #bbb;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.terminal-btns {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: relative;
+    top: 0;
+    left: 6px;
+    background-color: #ff3b47;
+    border-color: #9d252b;
+    display: inline-block;
+}
+.terminal-btn-min {
+    left: 11px;
+    background-color: #ffc100;
+    border-color: #9d802c;
+}
+.terminal-btn-zoom {
+    left: 16px;
+    background-color: #00d742;
+    border-color: #049931;
+}
+.terminal-screen {
+    background-color: #525252;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.shell-body {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    color: #fff;
+    line-height: 1.2em;
+}
+.content ul.shell-body {
+    padding-left: 1.5em;
+    position: inherit;
+}	
+.shell-body li {
+    word-wrap: break-word;
+    position: relative;
+    padding: 0 0 0 15px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+/* 
+Windows 上的cmder 风格的时lamda,其它操作系统大多默认为美元符
+ */
+.shell-body li:before {
+    content: '$';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.terminal-cursor {
+-webkit-animation: blink 1s 11.5s infinite;
+-moz-animation: blink 1s 8.5s infinite;
+-o-animation: blink 1s 8.5s infinite;
+animation: blink 1s 8.5s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

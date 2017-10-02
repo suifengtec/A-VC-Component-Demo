@@ -23,3 +23,4 @@ WPBakery Visual Composer 扩展组件示例.
 ## 详情
 
 [这里](http://coolwp.com/visual-composer-component-demo.html)
+[代码](http://coolwp.com/visual-composer-component-demo.html)
